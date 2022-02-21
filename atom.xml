@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>我曾寻找钥匙多年,但那扇门一直开着</title>
+  <icon>https://www.gravatar.com/avatar/6bf6e5e258abfd12bf462e4a2db4ea0b</icon>
+  
+  <link href="https://wangjplancelote.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://wangjplancelote.github.io/"/>
+  <updated>2022-02-16T10:30:38.964Z</updated>
+  <id>https://wangjplancelote.github.io/</id>
+  
+  <author>
+    <name>Lancelote</name>
+    <email>wjp19951024@163.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开端</title>
+    <link href="https://wangjplancelote.github.io/2022/02/15/hello-world/"/>
+    <id>https://wangjplancelote.github.io/2022/02/15/hello-world/</id>
+    <published>2022-02-15T10:22:51.749Z</published>
+    <updated>2022-02-16T10:30:38.964Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
