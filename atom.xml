@@ -6,7 +6,7 @@
   <link href="https://wangjplancelote.github.io/atom.xml" rel="self"/>
   
   <link href="https://wangjplancelote.github.io/"/>
-  <updated>2022-02-16T10:30:38.964Z</updated>
+  <updated>2022-04-19T10:43:02.711Z</updated>
   <id>https://wangjplancelote.github.io/</id>
   
   <author>
@@ -17,11 +17,111 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>开端</title>
+    <title>Oracle(预言机)</title>
+    <link href="https://wangjplancelote.github.io/2022/04/19/oracle/"/>
+    <id>https://wangjplancelote.github.io/2022/04/19/oracle/</id>
+    <published>2022-04-19T10:39:49.625Z</published>
+    <updated>2022-04-19T10:43:02.711Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Oracle（预言机）是区块链中非常重要的功能，区块链外信息写入区块链内的机制称为预言机，为智能合约提供可靠的外部数据"><a href="#Oracle（预言机）是区块链中非常重要的功能，区块链外信息写入区块链内的机制称为预言机，为智能合约提供可靠的外部数据" class="headerlink" title="Oracle（预言机）是区块链中非常重要的功能，区块链外信息写入区块链内的机制称为预言机，为智能合约提供可靠的外部数据"></a>Oracle（预言机）是区块链中非常重要的功能，区块链外信息写入区块链内的机制称为预言机，为智能合约提供可靠的外部数据</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Oracle（预言机）是区块链中非常重要的功能，区块链外信息写入区块链内的机制称为预言机，为智能合约提供可靠的外部数据&quot;&gt;&lt;a href=&quot;#Oracle（预言机）是区块链中非常重要的功能，区块链外信息写入区块链内的机制称为预言机，为智能合约提供可靠的外部数据&quot; </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Lend(借贷)</title>
+    <link href="https://wangjplancelote.github.io/2022/04/19/lend/"/>
+    <id>https://wangjplancelote.github.io/2022/04/19/lend/</id>
+    <published>2022-04-19T07:10:26.723Z</published>
+    <updated>2022-04-19T07:12:03.375Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Farm(耕种)</title>
+    <link href="https://wangjplancelote.github.io/2022/04/19/farm/"/>
+    <id>https://wangjplancelote.github.io/2022/04/19/farm/</id>
+    <published>2022-04-19T07:10:18.321Z</published>
+    <updated>2022-04-19T10:43:39.130Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Yield-Farming-流动性挖矿-Yield-收益-Farm-耕种-，指将资金投入到不同的Defi协议中赚取回报"><a href="#Yield-Farming-流动性挖矿-Yield-收益-Farm-耕种-，指将资金投入到不同的Defi协议中赚取回报" class="headerlink" title="Yield Farming(流动性挖矿) [  Yield(收益), Farm(耕种)，指将资金投入到不同的Defi协议中赚取回报 ]"></a>Yield Farming(流动性挖矿) [  Yield(收益), Farm(耕种)，指将资金投入到不同的Defi协议中赚取回报 ]</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Yield-Farming-流动性挖矿-Yield-收益-Farm-耕种-，指将资金投入到不同的Defi协议中赚取回报&quot;&gt;&lt;a href=&quot;#Yield-Farming-流动性挖矿-Yield-收益-Farm-耕种-，指将资金投入到不同的Defi协议中赚取回报&quot; </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Stake(质押)</title>
+    <link href="https://wangjplancelote.github.io/2022/04/19/stake/"/>
+    <id>https://wangjplancelote.github.io/2022/04/19/stake/</id>
+    <published>2022-04-19T07:10:11.575Z</published>
+    <updated>2022-04-19T07:11:53.388Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Liquidity(流动性)</title>
+    <link href="https://wangjplancelote.github.io/2022/04/19/liquidity/"/>
+    <id>https://wangjplancelote.github.io/2022/04/19/liquidity/</id>
+    <published>2022-04-19T07:09:01.831Z</published>
+    <updated>2022-04-19T07:09:34.731Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Web3.0</title>
     <link href="https://wangjplancelote.github.io/2022/02/15/hello-world/"/>
     <id>https://wangjplancelote.github.io/2022/02/15/hello-world/</id>
     <published>2022-02-15T10:22:51.749Z</published>
-    <updated>2022-02-16T10:30:38.964Z</updated>
+    <updated>2022-04-19T07:23:19.953Z</updated>
     
     <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
     
