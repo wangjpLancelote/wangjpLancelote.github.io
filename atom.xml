@@ -6,7 +6,7 @@
   <link href="https://wangjplancelote.github.io/atom.xml" rel="self"/>
   
   <link href="https://wangjplancelote.github.io/"/>
-  <updated>2024-03-26T07:56:17.343Z</updated>
+  <updated>2024-05-13T09:40:29.470Z</updated>
   <id>https://wangjplancelote.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重新出发——艰难职场之路</title>
+    <link href="https://wangjplancelote.github.io/2024/05/13/%E9%87%8D%E6%96%B0%E5%87%BA%E5%8F%91/"/>
+    <id>https://wangjplancelote.github.io/2024/05/13/%E9%87%8D%E6%96%B0%E5%87%BA%E5%8F%91/</id>
+    <published>2024-05-13T09:39:50.333Z</published>
+    <updated>2024-05-13T09:40:29.470Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>聚合器(Yearn)</title>
+    <link href="https://wangjplancelote.github.io/2024/03/29/%E8%81%9A%E5%90%88%E5%99%A8Yearn/"/>
+    <id>https://wangjplancelote.github.io/2024/03/29/%E8%81%9A%E5%90%88%E5%99%A8Yearn/</id>
+    <published>2024-03-29T03:52:13.278Z</published>
+    <updated>2024-03-29T03:52:46.622Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">DeFi</span>聚合器<span class="title class_">Yearn</span>项目出现原因，源自于<span class="title class_">DeFi</span>项目的泛滥与治理币诞生，海量的交易导致以太坊的<span class="title class_">Gas</span>飙升</span><br></pre></td></tr></table></figure><p>什么是聚合器：</p><p>当 N 多个 DeFi 项目同时 Farm 或者 Mint，项目方发行了一些名为治理币的激励，本意是为了在 DeFi 项目中利用治理币做一些投票来共同管理社区（即投票），结果现在这些治理币的出现，导致以太坊的 Gas Fee 居高不下（因为要获得这些代币就需要进行交易）</p><p>这个时候就希望有一种项目，能够解决在很多个项目的池子中自动根据算法决定将钱投入到哪里，挖出来的钱是继续放进池子还是卖掉，怎么卖，什么时候卖，最好放进这个项目池子的项目还能根据份额分红等这些问题。这中项目就称之为：<strong>聚合器</strong></p><p>聚合器可以理解为 DeFi 中的基金，只需要一股脑把钱放进去，具体怎么做，由基金经理处理（这里就是算法和合约），并且聚合器也会有治理币，把钱放在聚合器的池子里不仅能分红，还能挖矿（万物皆有挖矿机制）</p><p>显然：聚合器 Yearn 项目因其简单的操作，自然而然的成为了 DeFi 领域的明星，用户根本不需要下载那么多 App，关注那些 DApp 的操作方式，只需要准备好钱，放进 Yearn 中，就有源源不断的收益，发行的代币 YFI 也节节攀升，在 Yearn 项目爆火的同时，会在同时抬高了其他 DeFi 项目的币价</p><p>仿盘：</p><p>仿盘就是 fork 了 Uniswap 代码，修改了其中合约的参数的类 swap 项目，为什么是 Uniswap，因为 Uniswap 是最早和最著名采用 AMM 的 DEX，同时也是开源的。但是 AMM 的问题在于需要有大量的资金来提供流动性才能变得好用，如果交易量上不去，分红就上不去，于是也没有足够的奖励来吸引那么多的资金来提供流动性。</p><p>这个时候就出现了 Compound 搞出来的治理币和流动性挖矿</p><p>Compound 的出现可以说大大激活了 DeFi 的市场，不一样的玩法，高额的收益，使得流动性越来越高，但是，很快，这种局面就被打破了，<strong>SushiSwap</strong>出现了</p><p>SushiSwap，复制了 Uniswap 的代码，但是加入了治理币和流动性挖矿，可以说是 UniSwap 和 Compound 的结合，除此之外，还照搬了 Uniswap 的 logo，很直接的向世界宣布自己就是 Uniswap 的复制品，所有的智能合约都是照抄的，但是宣称自己是更好的 Uniswap，因为加入了流动性挖矿，因为自己发行治理币。</p><p>为什么这么说，流动性挖矿是要有人注入流动性，也就是需要充钱到池子里才给用户发币，但是 Sushiswap 的做法是：给池子里注入流动性，就给发币，但是只有两周时间，两周后还想要币，只需要把钱放到池子里（不需要其他用户发生交易即可）。</p><p>什么意思呢，本来流动性挖矿是需要用户发生交易之后，swap 抽取利率作为激励发放对应的奖励给用户（也就是币），但是现在 sushiswap 只需要用户将钱放到池子里，就会给用户发代币（sushi），用户什么都不用干就会有收益，唯一需要担心的是 sushi 代币的价值，这是无本万利的事。而且 sushi 火了的话，肯定会有更多人将钱投到 sushiswap 里，流动性也上来了，交易量也会上来，注意，sushiswap 和 Uniswap 一模一样，这时候流动性挖矿的收益也是水涨船高，于是 Sushiswap 凭借这种策略，顺利的让其暴涨，吸收了天量的资金，既然 sushiswap 成功了，自然而然的会带动其他的一些仿盘项目（食物系，，什么 Salmon，Taco，Pasta 等），这类项目就是仿盘的起源。</p><p>后发的项目怎么能和先发的项目竞争呢，sushiswap 是第一个吃螃蟹的人，后续的仿盘都是出道即巅峰，马上就消失不见。没有金融创新，是吸收不到资金的。也有一些创新针对的是预挖项目币的情况，因为大部分的项目在发行的时候，会提前给开发团队，或者 VC 一些币，这是给先进入的人的优势回报，这就是预挖，但是，这样就会让后来进入的人没有足够的回报，因此诞生了 YFII，也是 copy 的 YFI 的仿盘项目，但是 YFII 没有预挖，而是直接将钱分给用户。因为没有开发团队，没有投资者，所有的代码都是从公链上拿下来的，完全没有成本。</p><p>这些也是仿盘的优势：没有开发团队，没有代码审计，没有投资人，，没有代码审计就是最大的问题，仿盘没有一个正经的开发团队，没有投资人，就意味着会走向失控。换句话说，这不是仿盘带来的风险，而是 DeFi 的结构性问题。</p><p>明星项目 YAM 就是 Yearn 的仿盘，调整了代币的分配策略，动态调整机制能够发新币吸引新人加入。但是 YAM 的代码 bug 导致了整个项目上线即崩盘。</p><p>这也是 DeFi 项目中的智能合约 bug，一旦智能合约出现 bug，那么不管是不是仿盘都会出问题。这是代码审计的问题。</p><p>以上总总，DeFi 就算有再多的问题，但是最大价值就在于，去中心化总是对的，但去中心化交易所不一定是好的。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight jsx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Recoil解决了什么问题</title>
+    <link href="https://wangjplancelote.github.io/2024/03/27/Recoli/"/>
+    <id>https://wangjplancelote.github.io/2024/03/27/Recoli/</id>
+    <published>2024-03-27T03:59:24.862Z</published>
+    <updated>2024-03-27T06:15:16.721Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Recoil"><a href="#Recoil" class="headerlink" title="Recoil"></a>Recoil</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Recoil&quot;&gt;&lt;a href=&quot;#Recoil&quot; class=&quot;headerlink&quot; title=&quot;Recoil&quot;&gt;&lt;/a&gt;Recoil&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>前端项目部署</title>
@@ -126,26 +179,6 @@
   </entry>
   
   <entry>
-    <title>Defi(去中心化金融)</title>
-    <link href="https://wangjplancelote.github.io/2024/03/26/Defi/"/>
-    <id>https://wangjplancelote.github.io/2024/03/26/Defi/</id>
-    <published>2024-03-26T07:13:35.915Z</published>
-    <updated>2024-03-26T07:13:35.915Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>GameFi(Defi的游戏化)</title>
     <link href="https://wangjplancelote.github.io/2024/03/26/GameFi/"/>
     <id>https://wangjplancelote.github.io/2024/03/26/GameFi/</id>
@@ -178,26 +211,6 @@
       
       
     <summary type="html">&lt;h2 id=&quot;Yield-Farming-流动性挖矿-Yield-收益-Farm-耕种-，指将资金投入到不同的Defi协议中赚取回报&quot;&gt;&lt;a href=&quot;#Yield-Farming-流动性挖矿-Yield-收益-Farm-耕种-，指将资金投入到不同的Defi协议中赚取回报&quot; </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Web3.0</title>
-    <link href="https://wangjplancelote.github.io/2024/03/26/hello-world/"/>
-    <id>https://wangjplancelote.github.io/2024/03/26/hello-world/</id>
-    <published>2024-03-26T07:13:35.915Z</published>
-    <updated>2024-03-26T07:13:35.915Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
       
     
     
@@ -300,6 +313,27 @@
     <summary type="html">&lt;font face=&quot;微软雅黑&quot; size=&quot;3&quot;&gt;
 
 &lt;h2 id=&quot;什么是区块链钱包&quot;&gt;&lt;a href=&quot;#什么是区块链钱包&quot; class=&quot;headerlink&quot; title=&quot;什么是区块链钱包&quot;&gt;&lt;/a&gt;什么是区块链钱包&lt;/h2&gt;&lt;p&gt;&amp;emsp;区块链钱包是加密货币应</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DeFi(去中心化金融)</title>
+    <link href="https://wangjplancelote.github.io/2024/03/26/DeFi/"/>
+    <id>https://wangjplancelote.github.io/2024/03/26/DeFi/</id>
+    <published>2024-03-26T07:13:35.915Z</published>
+    <updated>2024-03-28T02:20:00.909Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="流动性挖矿"><a href="#流动性挖矿" class="headerlink" title="流动性挖矿"></a>流动性挖矿</h1><p>什么是挖矿？</p><p>最初在区块链中的挖矿是指使用计算机硬件（如 CPU、GPU 或专业的 ASIC 矿机）来执行特定的算法计算，以验证和记录区块链网络中的交易，这个过程对于维护区块链的安全性和去中心化至关重要。</p><p><strong>区块链挖矿</strong>主要包括以下几个方面：</p><ul><li>交易验证：矿工通过解决复杂的数学问题来验证新生成的交易块，确保交易的有效性。</li><li>工作量证明：常见的挖矿机制，要求矿工完成一项计算工作，这项工作的难度确保了网络的安全性。矿工必须投入大量的计算资源来解决难题，这个过程被称为“挖矿”</li><li>区块创建：一旦矿工解决了难题，他们就可以创建一个新的区块，并将待验证的交易打包进这个区块。</li><li>区块链接：新区块被添加到现有的区块上，形成新的链条，这个过程称为区块链接</li><li>奖励机制：成功挖矿的矿工会获得新生成的加密货币作为奖励，这是对矿工所投入计算资源电力的补偿。</li></ul><p>以上是作为 POW（工作量证明的挖矿 Proof of Work）的机制</p><p>除此之外，其他的共识机制如 POS（权益证明 Proof of Stake）和 DPOS（委托权益证明 Delegated Proof of Stake）这些不同的挖矿机制，事实上后两者已经不能算作常规意义的挖矿了，只不过延续之前的叫法仍然叫挖矿，后两者的机制有一个更为适合的名字：质押</p><h1 id="流动性挖矿-1"><a href="#流动性挖矿-1" class="headerlink" title="流动性挖矿"></a>流动性挖矿</h1><p>这是一个去中心化金融中的概念（DeFi），流动性挖矿允许用户通过提供资产到特定的流动性池中来赚取奖励。</p><ul><li>流动性池：在 DeFi 中，流动性池是由用户共同出资形成的资产池，用于促进加密货币之间的交易。</li><li>提供流动性：用户向这些流动性池中存入自己的加密货币，从而成为流动性提供者(Liquidity Provider 简称 LP)，用户通过池子维持两者货币的交易流动性，并允许其他用户进行交易</li><li>交易费用：当其他用户在流动性中进行交易时，会生成交易费用，这些费用通常按照流动性提供者存入资产的比例分配给他们，作为提供流动性的奖励。</li><li>额外奖励：除了交易费用之外，一些 DeFi 项目还会通过发放自己的治理代币或者奖励代币来激励流动性提供者。这些代币可能具有价值，并且可以用于项目的治理决策或者在未来获得更多收益。</li><li>风险：尽管流动性挖矿提供了赚取额外收益的机会，但是也伴随着风险，例如：如果流动性池中的资产价格发生大幅波动，可能会导致流动性提供者损失资产（无常损失）</li></ul><p>流动性挖矿有两种模式：Yield Farming 和 Yield Mining</p><ul><li><strong>Farming</strong>：将代币组成交易对存入流动性池中，获得份额，称为 LP，交易者使用资金池产生的交易费用会加入资金池，为每个流动性提供者赚取了手续费，根据份额来分配收益</li><li><strong>Mining</strong>：收益来源来自平台提供而不是手续费，例如平台代币的奖励，提供给 LP，作为收益的补充。</li></ul><h1 id="Stake：质押"><a href="#Stake：质押" class="headerlink" title="Stake：质押"></a>Stake：质押</h1><p>质押指的是存入某种代币 A，随着时间获得新的代币 A 或者另一种代币 B</p><p>和流动性挖矿又一些相同点，都是提供资产来获得收益，这些收益以加密货币的形式发放，两者都是 DeFi 的一部分，</p><ul><li>质押代币需要将代币锁定在钱包或者智能合约中，作为对网络的支持，POS 就是这种方式应用。</li><li>收益来自于网络新新生成的代币和交易费用，质押的收益量按照质押量占总质押量的比例来获得奖励。</li><li>质押会有资产的锁定期限制，锁定期内无法赎回</li><li>质押会影响流动性，除非解锁期结束，否则用户资产一直处于被锁定的状态。</li></ul><h1 id="DEX-的收益获取"><a href="#DEX-的收益获取" class="headerlink" title="DEX 的收益获取"></a>DEX 的收益获取</h1><p>DEX（去中心化交易所）是如何获取收益并将奖励给到 LP（Liquidity Prodiver 流动性提供者）的呢</p><p>在流动性提供者（LP）注入资产到流动性池中后，会获得 DEX 的 LP 代币，这些 LP 代币代表了他们在池中的资产份额，当用户在 DEX 上交易的时候，每一笔交易会产生手续费，无论是用 USDT 买 ETH，还是 ETH 换 USDT，这些手续费就会根据分配方式进行分配：</p><ul><li>LP：根据 LP 的份额，给到流动性提供者收益（流动性挖矿的收益人）</li><li>平台收益：用于一部分的平台治理、运营、开发团队的成本</li><li>流动性挖矿的奖励：除了 LP 的份额之外，还会发放额外的奖励，激励用户提供流动性。</li><li>社区基金：DEX 的社区运营治理也需要一些费用</li><li>捐赠：公益项目</li></ul><h1 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h1><p>DEX 的费率和 CEX 费率相似甚至偏高，那么用户依然选择 DEX 的原因是什么呢</p><p>DEX 的核心优势就是去中心化，这意味着没有中央机构控制交易过程，降低了单点故障的风险，用户直接在区块链上交易；开放与透明，DEX 的智能合约是开源的；最重要的，DEX 提供了流动性挖矿的机会，用户可以提供流动性来获得额外的代币奖励，这也是 CEX 所没有的。</p><p>DEX 支持更广泛的代币和交易对，对于很多还未上交易所的代币而言，DEX 是早期赚取这些有潜力价值巨大的代币的好机会。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;流动性挖矿&quot;&gt;&lt;a href=&quot;#流动性挖矿&quot; class=&quot;headerlink&quot; title=&quot;流动性挖矿&quot;&gt;&lt;/a&gt;流动性挖矿&lt;/h1&gt;&lt;p&gt;什么是挖矿？&lt;/p&gt;
+&lt;p&gt;最初在区块链中的挖矿是指使用计算机硬件（如 CPU、GPU 或专业的 ASIC 矿机）来</summary>
       
     
     
