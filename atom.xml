@@ -6,7 +6,7 @@
   <link href="https://wangjplancelote.github.io/atom.xml" rel="self"/>
   
   <link href="https://wangjplancelote.github.io/"/>
-  <updated>2024-05-19T13:35:20.626Z</updated>
+  <updated>2024-05-22T02:52:21.956Z</updated>
   <id>https://wangjplancelote.github.io/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>永续合约</title>
+    <link href="https://wangjplancelote.github.io/2024/05/22/Contract/"/>
+    <id>https://wangjplancelote.github.io/2024/05/22/Contract/</id>
+    <published>2024-05-22T02:51:12.614Z</published>
+    <updated>2024-05-22T02:52:21.956Z</updated>
+    
+    <content type="html"><![CDATA[<p>永续合约已经成为了加密货币交易量最大的交易方式，但永续合约是一个币圈独创的产品，与平时接触的普通金融衍生品不同，币圈永续合约的设计理解起来有点困难，甚至很多人虽然经常用永续合约，但依然不知道各种指标是什么意思。</p><p>很多人爆仓，是因为不能理解币圈永续合约的本质。</p><h3 id="永续合约的全称，叫做「期货永续合约」"><a href="#永续合约的全称，叫做「期货永续合约」" class="headerlink" title="永续合约的全称，叫做「期货永续合约」"></a>永续合约的全称，叫做「期货永续合约」</h3><p>三个关键词：期货，永续，合约</p><p>期货：相较于现货而言，在现货交易中，双方直接一手交钱一手交货，而在期货交易中，约定了在将来某个时间以某个价格交易商品，举个例子，A 和 B 约定，在两个月后，A 以 200 元&#x2F;斤的价格卖 100 斤大米给 B，双方签订了合同，则 A 是合约的卖方，B 是合约的买方，这个交易的过程，就是以期货的交易形式的合约，期，即未来的时间的意思，和现货对应</p><p>在这个过程中，如果 A 和 B 的双方的某一方不想要按照原来的约定买大米了，那么，他们签订的这份合同可以卖给别人，如果是 B 卖的，那么 B 就变成了合同的卖方，期货合约都是有到期期限的，在最后时间是一定要交割的，到了<code>交割日</code>，买卖双方会强制按照当初的约定进行交割，这个中合约也叫做<code>期货交割合约</code></p><p>为了让合约购买的双方，在合约的到期日都能遵循约定进行交割，双方都需要缴纳一定的资金，这个就叫<code>保证金</code>。</p><p>在交易所中，假设当前 BTC 的价格为 2W 美金，而 A 觉得，到了下个星期，BTC 能涨到 2.5w 美金，那么 A 就会买入看涨合约，同时要缴纳一定的保证金，（这个保证金的缴纳需要看当时买入的合约本位是什么），这份看涨合约代表：下个星期，A 有权利以 2w 美金的价格买入 BTC，而合约市场（期市）是需要对手盘的，也就是交易对手才能成交，假设对手是 B，B 觉得下个星期 BTC 会跌，所以 B 想在下个星期以 2w 美金的价格卖出 BTC，对于 A 来说是先低买高卖，对于 B 来说是先高借后低还。</p><p>到了下个星期，如果 BTC 的价格跌到了 1.8w 美金，那么 A 亏损，B 盈利</p><p>以上的例子讲的期货合约，最后都要交割，称之为<code>交割合约</code>，还有一种没有交割时间的合约，就是<code>期货永续合约</code>，永续合约分为两种，<code>正向合约</code>和<code>反向合约</code></p><p>正向合约很好理解，跟踪的交易标的是 BTC，以 USDT 计价，保证金也是 USDT</p><p>反向合约的跟踪标的和计价都和正向合约一样，但是以 BTC 为保证金，这个就是<code>X本位合约</code>的意思，</p><aside><img src="/icons/cow_yellow.svg" alt="/icons/cow_yellow.svg" width="40px" /> 举例：`U本位`就是正向合约，`币本位`就是反向合约</aside><p>从交易体验来说，正向合约使用 USDT 一种币种作为保证金，可以开多币种的合约，确实是更灵活，更适合新手使用，合约的单位是张，但一张正向合约和一张反向合约所代表的面值分别是多少呢？一张 BTC 合约的面试通常是需要提前约定，不一样的地方在于，正向合约一张合约面值按 BTC 数量算（价值多少个 BTC），而反向合约是按 USDT 数量（价值多少 USDT），比方说可以假设</p><table><thead><tr><th>合约类型</th><th>合约面值</th></tr></thead><tbody><tr><td>一张正向 BTC 合约面值</td><td>0.1BTC</td></tr><tr><td>一张反向 BTC 合约面值</td><td>100USDT</td></tr></tbody></table><p>以上说明什么呢，正向合约需要拥有币种标的如：BTC，反向合约是按 USDT 计价的，只需要拥有 USDT 即可，这也是反向合约入场门槛低的原因，其次也和看涨看跌合约有关，一般，如果是看涨合约，那么就买正向合约，如果盈利的话则是币值涨 + 合约收益</p><h2 id="保证金"><a href="#保证金" class="headerlink" title="保证金"></a>保证金</h2><p>保证金是开仓是需要缴纳的资金，正向何雨两者保证金计算如下：</p><p>正向合约的仓位价值 &#x3D; 合约面值 _ 合约张数 _ 标记价格</p><p>正向合约的仓位价值 &#x3D; 杠杆倍数 * 保证金数量</p><p>$$<br>合约价值<em>合约张数</em>标记价格 &#x3D; 杠杆倍数 * 保证金数量<br>$$</p><p>以上的公式可以看出，杠杆倍数越高，保证金数量不变的情况下，能开的张数越多，如果盈利，收益越高，如果亏损，保证金数量需要追加的数量越大。</p><p>举个例子：在 BTC 价格是 2w 美金的时候，买 5 张 BTC 正向合约，以 2 倍杠杆买入，则保证金：</p><p>$$<br>保证金&#x3D;0.1<em>20000</em>5&#x2F;2&#x3D;5000 USDT<br>$$</p><p>0.1 是合约面值，20000 标记价格，5 为合约张数，2 位杠杆倍数</p><p>反向合约的情况是</p><p>反向合约的仓位价值&#x3D;合约价值*合约张数</p><p>反向合约的仓位价值&#x3D;杠杆倍数<em>保证金数量</em>标记价格</p><p>所以反向合约中：<strong>合约价值<em>合约张数&#x3D;杠杆倍数</em>保证金数量*标记价格</strong></p><p>上面的例子中正向合约的仓位价值是 1w 美金，所以在反向合约中我们也买入同样的仓位价值（这在真实的交易市场中是同样的情况）需要买入 100 张合约（假设一张 BTC 反向合约 100USDT，买入 100 张就是 1w 美金），那么保证金是：100<em>100&#x2F;（2</em>20000）&#x3D; 0.4BTC，而 0.4BTC 的价值就等于 5000USDT</p><h2 id="盈亏计算"><a href="#盈亏计算" class="headerlink" title="盈亏计算"></a>盈亏计算</h2><p>在正向合约中，</p><p>做多时：盈亏 &#x3D; (平仓价-开仓价)<em>合约面值</em>合约张数</p><p>做空时：盈亏 &#x3D; (开仓价-平仓价)<em>合约面值</em>合约张数</p><p>在上面的例子中：在 2w 美金买入 5 张 BTC 合约，并在币价 2.5w 美金时卖出，则盈亏是：</p><p>$$<br>(2.5w-2w)<em>0.1</em>5 &#x3D; 2500USDT<br>$$</p><p>在反向合约中</p><p>做多时：盈亏 &#x3D; (1&#x2F;开仓价 - 1&#x2F;平仓价)<em>合约面值</em>合约张数</p><p>做空时：盈亏 &#x3D; (1&#x2F;平仓价 - 1&#x2F;开仓价)<em>合约面值</em>合约张数</p><p>在上面的例子中：在 2w 美金买入 100 张 BTC 合约，则开仓时仓位价值&#x3D;100*100&#x3D;1w 美金，并在币价 2.5w 美金时卖出，则这个操作的盈亏是：</p><p>$$<br>(1&#x2F;20000-1&#x2F;25000)<em>100</em>100&#x3D;0.1BTC<br>$$</p><p>盈亏是 0.1BTC*25000 &#x3D; 2500USDT</p><p>也就是反向合约中挣到的 BTC 如果以平仓时价格卖出，则与正向合约挣到的 USDT 相等</p><p>正向合约与开仓平仓价差的关系是线性的，但是反向合约不是，反向合约的关系是凸函数的关系</p><p>强平的基本原理：<code>亏损 = 保证金</code>，就会触发爆仓</p><p>在正向合约做多的场景中，开仓时仓位价值&#x3D;合约面值<em>张数</em>开仓价，强平时仓位价值&#x3D;合约面值<em>张数</em>强平价，当仓位损失&#x3D;（开仓价-强平价）<em>合约面值</em>张数&#x3D;保证金，仓位被强平</p><p>已知：合约面值<em>合约张数</em>标记价格&#x3D;杠杆倍数*保证金数量</p><p>下面的<code>N</code>是杠杆倍数，<code>O</code>是开仓价格，强平价是<code>L</code>，保证金是<code>M</code></p><p>即可推导出：强平价&#x3D;1&#x2F;杠杆倍数，表明开仓价跌了 1&#x2F;N 就会触发爆仓</p><p>在上面的例子中，开仓价为 2w 美金，2 倍杠杆的情况下，则价格到 1w 美金就爆仓，如果是 50 倍杠杆，则价格到 19600 美金就爆仓</p><p>做空的情况也是一样，价格涨了 1&#x2F;N 就爆仓</p><p>再看看反向合约</p><p>做多时：开仓时仓位价值&#x3D;O<em>N</em>M，平仓时仓位价值&#x3D;L<em>N</em>M，则亏损&#x3D;（O-L）<em>N</em>M，保证金价值&#x3D;L<em>M，所以当（O-L）</em>N<em>M&#x3D;L</em>M，就会触发强平</p><p>上面的公式推导一下，得出：L&#x3D;O（1-1&#x2F;N+1），也就是说做多时开仓价跌 1&#x2F;N+1 就爆仓，</p><p>做空时：开仓仓位价值&#x3D;O<em>N</em>M，平仓时仓位价值&#x3D;L<em>N</em>M，亏损&#x3D;（L-O）<em>N</em>M，保证金价值&#x3D;L<em>M，所以当（L-O）</em>N<em>M&#x3D;L</em>M，就触发强平</p><p>推导为：L&#x3D;O（1+1&#x2F;N-1），就是说做空时开仓涨 1&#x2F;N-1 就爆仓，2 倍杠杆，即价格涨 50%就会爆仓，如果时 1 倍杠杆，则永不爆仓，得出结论：</p><p><strong>反向合约，一倍做空，永不爆仓</strong></p><h2 id="资金费率"><a href="#资金费率" class="headerlink" title="资金费率"></a>资金费率</h2><p>资金费率每 8 小时结算一次，分别是 0 点、8 点、16 点</p><p>只哟再结算时间持有仓位，才会进行结算</p><aside><img src="/icons/cow_yellow.svg" alt="/icons/cow_yellow.svg" width="40px" /> 为什么要有资金费率</aside><p>用于维持合约价格与资产现货价格的平衡的机制，永续合约是没有到期日的金融衍生品，价格理论上会与现货价格保持一致，然而，由于市场波动，市场供需关系变化等因素，永续合约的价格可能会偏离现货价格，因此资金费率就是用来调整永续合约的价格，使其与现货价格保持一致的手段，通过经济刺激的方式影响市场参与者：</p><p>正资金费率：当永续合约的价格高于现货价格时，资金费率为正，这意味着多头看涨持仓者需要向空头支付费用，这种机制鼓励更多的市场参与者做空，以期降低永续合约的价格，使其向现货价格靠拢</p><p>负资金费率：当永续合约价格低于现货价格的时候，资金费率为负，此时，空头持仓需要向多头持仓者支付费用，这激励更多的市场参与者做多，以提升永续合约的价格。</p><p>那么，为什么一定要有这个资金费率呢，不能没有这个机制吗</p><p>首先，交易所的目的是鼓励市场参与者参与交易，提高市场效率，没有这个机制，市场的自我调节能力会减弱，而且没有这个机制的话也会导致更多的投机行为，因为交易者可以不受持有成本的影响长期持有头寸，最后，最重要的是，资金费率可以提高市场流动性</p><h2 id="全仓-逐仓"><a href="#全仓-逐仓" class="headerlink" title="全仓&#x2F;逐仓"></a>全仓&#x2F;逐仓</h2><p>两种交易模式：</p><p>开全仓的情况下，如果 A 账户内有 1w，花了 5k 开 BTC 多单，花了 3K 开了 ETH 多单，账户内留了 2k，如果此时暴跌，那么除了开的多单，账户内的余额（前提是同一币种，不同币种没有讨论价值）也会被自动用来补仓，直到价格回升或者跌倒谷底直接爆仓。因为此时保证金是共享的</p><p>开逐仓的情况下：每个保证金是独立的，互相不受影响，只需要手动单独添加保证金</p><h2 id="做多还是做空"><a href="#做多还是做空" class="headerlink" title="做多还是做空"></a>做多还是做空</h2><p>做多不仅仅是合约对赌收益，还有相应的币价上涨带来的收益，理论上收益无上限</p><p>做空的收益最高是 100%*杠杆倍数，还得要承受币价下跌带来的无常损失</p><p>因此做多的收益会高于做空，而且做多也是提振市场信心，做空除了加剧 FOMO，毫无意义</p><h2 id="期现套利"><a href="#期现套利" class="headerlink" title="期现套利"></a>期现套利</h2><p>这是一种吃交易所资金费率的方式，交易者在资金费率为正的时候，同时买入永续合约和相应数量的现货，这样期望从多头支付给空头的资金费率中获利</p><p>常见的现货做多，合约做空，获取其中的空头资金费率</p><p>跨交易所套利：不同交易所的资金费率不同，因此可以吃掉这个价差</p><p>三角套利：多种资产品种进行 swap，最后会出现一个缺口，这个缺口可以作为套利空间</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;永续合约已经成为了加密货币交易量最大的交易方式，但永续合约是一个币圈独创的产品，与平时接触的普通金融衍生品不同，币圈永续合约的设计理解起来有点困难，甚至很多人虽然经常用永续合约，但依然不知道各种指标是什么意思。&lt;/p&gt;
+&lt;p&gt;很多人爆仓，是因为不能理解币圈永续合约的本质。&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>React Server Component</title>
+    <link href="https://wangjplancelote.github.io/2024/05/22/ReactServerComponent/"/>
+    <id>https://wangjplancelote.github.io/2024/05/22/ReactServerComponent/</id>
+    <published>2024-05-22T02:48:28.070Z</published>
+    <updated>2024-05-22T02:49:58.027Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是-RSC"><a href="#什么是-RSC" class="headerlink" title="什么是 RSC"></a>什么是 RSC</h2><p>react server component 是 react 推出的服务端组件，顾名思义，服务端组件是运行在服务端的 react 组件，所以要想开发并使用服务端组件，需要先启动一个 node 服务</p><h3 id="RSC-和-SSR-不是一个东西"><a href="#RSC-和-SSR-不是一个东西" class="headerlink" title="RSC 和 SSR 不是一个东西"></a>RSC 和 SSR 不是一个东西</h3><p>服务端组件不能使用客户端的一切变量和方法、事件，因为没有 DOM 和 BOM，所以服务端组件在使用的时候要做融合和水合(Hydrate)</p><p>区分标识：</p><ul><li>服务端组件：’use server’</li><li>客户端组件: ‘use client’</li></ul><p>在服务端代码执行开始之前，先执行 React 提供的 register 方法，通过自定义的 NodeJS 的 Module.prototype._compile 方法在 NodeJS 每次 require 文件时检测头部是否有’use client’,有的话就做 client component 相关逻辑的处理</p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> register = <span class="built_in">require</span>(<span class="string">&quot;react-server-dom-webpack/node-register&quot;</span>);</span><br><span class="line"><span class="title function_">register</span>();</span><br></pre></td></tr></table></figure><p><code>react-server-dom-webpack</code>是 react 针对 RSC 开发的<code>webpack</code>插件</p><h2 id="为什么要有-RSC"><a href="#为什么要有-RSC" class="headerlink" title="为什么要有 RSC"></a>为什么要有 RSC</h2><p>一个 React 组件，可能包含两种类型的状态：</p><ul><li>前端交互用的状态，比如加载按钮的显&#x2F;隐状态</li><li>后端请求回的数据，比如下面代码中的 data 状态用于保存后端数据</li></ul><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">App</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> [data, update] = <span class="title function_">useState</span>(<span class="literal">null</span>);</span><br><span class="line"></span><br><span class="line">  <span class="title function_">useEffect</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="title function_">fetch</span>(url).<span class="title function_">then</span>(<span class="function">(<span class="params">res</span>) =&gt;</span> <span class="title function_">update</span>(res.<span class="title function_">json</span>()));</span><br><span class="line">  &#125;, []);</span><br><span class="line">  <span class="keyword">return</span> <span class="language-xml"><span class="tag">&lt;<span class="name">Button</span> <span class="attr">data</span>=<span class="string">&#123;data&#125;</span> /&gt;</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>前端交互状态放在前端最合适，单后端请求返回的数据放在前端则比较繁琐，整个链路如下：</p><ol><li>前端请求并加载 React 业务逻辑代码</li><li>应用执行渲染流程</li><li>App 组件 mount，执行 useEffect，请求后端数据</li><li>后端数据返回，App 组件的子组件消费数据</li></ol><p>那么，我们根据状态类型将组件分类，比如：</p><ul><li>「只包含交互相关状态」的组件，叫做客户端组件(React Client Component) RCC</li><li>「只从数据源获取数据」的组件，叫做服务端组件(React Server Component) RSC</li></ul><p>RSC 的理念就是，一句话概括，根据状态类型，划分组件类型，RCC 在前端运行，RSC 在后端运行</p><h2 id="与-SSR、SSG-的区别"><a href="#与-SSR、SSG-的区别" class="headerlink" title="与 SSR、SSG 的区别"></a>与 SSR、SSG 的区别</h2><p>这两者都是结合了客户端组件和服务端组件的方案，而 RSC 则是其中的组成部分</p><p>SSG 是后端编译时方案，使用 SSG 的业务，后端代码在编译时回生成 HTML，当前端发起请求时，后端始终会返回编译生成的 HTML</p><p>SSR 与 RSC 都是后端运行时方案，也就是说，他们都是前端发起请求后，后端对请求的实时响应，根据请求参数不同，可以作出不同响应。</p><p>同为后端运行时方案，RSC 和 SSR 的区别主要体现在输出产物：</p><ul><li>SSR 的输出产物都是 HTML，浏览器可以解析</li><li>RSC 会流式输出一种「类 JSON」的数据结构（React Flight），由前端的 React 相关插件解析，即上文提到的<code>react-server-dom-webpack</code></li></ul><p>在应用上，需要考虑 SEO 时，SSR 和 SSG 都可以胜任，都是输出 HTML，而 RSC 不行，因为是流式输出</p><h2 id="如何区分-RSC-和-RCC"><a href="#如何区分-RSC-和-RCC" class="headerlink" title="如何区分 RSC 和 RCC"></a>如何区分 RSC 和 RCC</h2><ul><li>带有<code>.server.tsx</code>后缀的文件导出的是 RSC</li><li>带有<code>.client.tsx</code>后缀的文件导出的是 RCC</li><li>没有带以上后缀的文件名是通用组件</li></ul><h2 id="用法注意"><a href="#用法注意" class="headerlink" title="用法注意"></a>用法注意</h2><p>RCC 不允许 import 导入 RSC 组件，原因很简单，运行环境决定的，客户端组件要在前端运行，服务端组件要在服务端运行</p><p>需要交替使用的话，使用 children，即将 RSC 组件作为 RCC 组件的子组件</p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// client.tsx</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">function</span> <span class="title function_">Client</span>(<span class="params">children</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="language-xml"><span class="tag">&lt;<span class="name">main</span>&gt;</span>&#123;children&#125;<span class="tag">&lt;/<span class="name">main</span>&gt;</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// server.tsx</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Client</span> <span class="keyword">from</span> <span class="string">&quot;./client.tsx&quot;</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Server</span> <span class="keyword">from</span> <span class="string">&quot;./server.tsx&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">function</span> <span class="title function_">Outer</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="language-xml"><span class="tag">&lt;<span class="name">Client</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">      <span class="tag">&lt;<span class="name">Server</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;/<span class="name">Client</span>&gt;</span></span></span><br><span class="line">  );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上面说了 RSC 组件是以流的形式传输到前端的，那么这个流的格式是什么样的呢</p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">M1</span>:&#123;<span class="string">&quot;id&quot;</span>:<span class="string">&quot;./src/ClientCpn.client.js&quot;</span>,<span class="string">&quot;chunks&quot;</span>:[<span class="string">&quot;client1&quot;</span>],<span class="string">&quot;name&quot;</span>:<span class="string">&quot;&quot;</span>&#125;</span><br><span class="line"><span class="attr">J0</span>:[<span class="string">&quot;$&quot;</span>,<span class="string">&quot;div&quot;</span>,<span class="literal">null</span>,&#123;<span class="string">&quot;className&quot;</span>:<span class="string">&quot;main&quot;</span>,<span class="string">&quot;children&quot;</span>:[<span class="string">&quot;$&quot;</span>,<span class="string">&quot;@1&quot;</span>,<span class="literal">null</span>,&#123;<span class="string">&quot;children&quot;</span>:[<span class="string">&quot;$&quot;</span>,<span class="string">&quot;div&quot;</span>,<span class="literal">null</span>,&#123;<span class="string">&quot;children&quot;</span>:<span class="string">&quot;服务端组件&quot;</span>&#125;]&#125;]&#125;]</span><br></pre></td></tr></table></figure><p>RSC 是一种按行分隔的数据结构，方便流式传输，每行的格式为：</p><aside><img src="/icons/code_yellow.svg" alt="/icons/code_yellow.svg" width="40px" /> [标记][id]: JSON数据</aside><p>标记：代表这行的数据类型，比如 J 代表组件树，M 代表「一个 RCC 的引用」，S 代表 Suspense</p><p>id：代表这行数据的 id</p><p>JSON 数据保存了这行具体的数据</p><p>RSC 的序列化和反序列化就是 JSON 的序列化和反序列化，反序列化后的数据再根据「标记」不同做不同处理</p><h2 id="传输协议"><a href="#传输协议" class="headerlink" title="传输协议"></a>传输协议</h2><p>RSC 数据以什么格式在前后端传递呢，不同于一些 rpc 协议会基于 TCP 或者 UDP 实现，「RSC 协议」基于「HTTP 协议」实现，其中的<code>Content-Type = text/x-component</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;什么是-RSC&quot;&gt;&lt;a href=&quot;#什么是-RSC&quot; class=&quot;headerlink&quot; title=&quot;什么是 RSC&quot;&gt;&lt;/a&gt;什么是 RSC&lt;/h2&gt;&lt;p&gt;react server component 是 react 推出的服务端组件，顾名思义，服务端组件</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Element-UI组件解析</title>
@@ -272,46 +313,6 @@
   </entry>
   
   <entry>
-    <title>Lend(借贷)</title>
-    <link href="https://wangjplancelote.github.io/2024/03/26/lend/"/>
-    <id>https://wangjplancelote.github.io/2024/03/26/lend/</id>
-    <published>2024-03-26T07:13:35.915Z</published>
-    <updated>2024-03-26T07:13:35.915Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Liquidity(流动性)</title>
-    <link href="https://wangjplancelote.github.io/2024/03/26/liquidity/"/>
-    <id>https://wangjplancelote.github.io/2024/03/26/liquidity/</id>
-    <published>2024-03-26T07:13:35.915Z</published>
-    <updated>2024-03-26T07:13:35.915Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Oracle(预言机)</title>
     <link href="https://wangjplancelote.github.io/2024/03/26/oracle/"/>
     <id>https://wangjplancelote.github.io/2024/03/26/oracle/</id>
@@ -324,26 +325,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;预言机-Oracle&quot;&gt;&lt;a href=&quot;#预言机-Oracle&quot; class=&quot;headerlink&quot; title=&quot;预言机(Oracle)&quot;&gt;&lt;/a&gt;预言机(Oracle)&lt;/h1&gt;&lt;figure class=&quot;highlight jsx&quot;&gt;&lt;table&gt;&lt;t</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Stake(质押)</title>
-    <link href="https://wangjplancelote.github.io/2024/03/26/stake/"/>
-    <id>https://wangjplancelote.github.io/2024/03/26/stake/</id>
-    <published>2024-03-26T07:13:35.915Z</published>
-    <updated>2024-03-26T07:13:35.915Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="什么都没留下"><a href="#什么都没留下" class="headerlink" title="什么都没留下"></a>什么都没留下</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;什么都没留下&quot;&gt;&lt;a href=&quot;#什么都没留下&quot; class=&quot;headerlink&quot; title=&quot;什么都没留下&quot;&gt;&lt;/a&gt;什么都没留下&lt;/h2&gt;</summary>
       
     
     
